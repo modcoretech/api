@@ -1,2 +1,3 @@
 # api
-APIs by Nitra Global
+
+This repository is used to handle API requests from various software
