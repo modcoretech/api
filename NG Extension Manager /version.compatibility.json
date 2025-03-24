@@ -1,0 +1,13 @@
+{
+  "compatible": true,
+  "message": "This version is fully compatible with your system.",
+  "requirements": {
+    "chromeVersion": "90+",
+    "os": ["Windows 10+", "macOS 10.15+"],
+    "other": "At least 4GB of RAM recommended."
+  },
+  "recommendations": {
+    "chromeVersion": "Latest Chrome version recommended for optimal performance.",
+    "other": "Use SSD for faster loading times."
+  }
+}
