@@ -1,13 +1,12 @@
 {
   "compatible": true,
-  "message": "This version is fully compatible with your system.",
-  "requirements": {
+  "message": "This version is compatible with your system.",
+  "versionRequirements": {
     "chromeVersion": "90+",
-    "os": ["Windows 10+", "macOS 10.15+"],
-    "other": "At least 4GB of RAM recommended."
+    "permissions": ["tabs", "storage", "downloads"],
+    "pluginConflicts": "This version may cause conflicts with certain installed plugins."
   },
   "recommendations": {
-    "chromeVersion": "Latest Chrome version recommended for optimal performance.",
-    "other": "Use SSD for faster loading times."
+    "chromeVersion": "Latest Chrome version recommended for optimal performance."
   }
 }
