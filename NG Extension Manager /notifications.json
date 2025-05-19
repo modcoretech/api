@@ -1,0 +1,20 @@
+[
+  {
+    "id": "welcome-001",
+    "type": "info",
+    "title": "Welcome to the New Updates Page!",
+    "body": "This page now helps you keep your extension up-to-date by checking for the latest releases directly from our GitHub repository. We've also added this notification system for important announcements."
+  },
+  {
+    "id": "how-to-use-notifications-001",
+    "type": "guide",
+    "title": "About Notifications",
+    "body": "We may occasionally send important announcements or tips via this notification system. Click the bell icon to see new messages. Click on a message title to read the full details.\n\nNotifications are cached locally for faster loading."
+  },
+  {
+    "id": "update-tip-001",
+    "type": "tip",
+    "title": "Tip: Manual Installation",
+    "body": "If you download a .zip or .crx file, you might need to manually install it. Go to chrome://extensions, enable Developer mode, and drag the downloaded file onto the page."
+  }
+]
