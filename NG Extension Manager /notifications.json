@@ -16,5 +16,11 @@
     "type": "tip",
     "title": "Tip: Manual Installation",
     "body": "If you download a .zip or .crx file, you might need to manually install it. Go to chrome://extensions, enable Developer mode, and drag the downloaded file onto the page."
+  },
+  {
+    "id": "prerelease-available-001",
+    "type": "info",
+    "title": "Pre-release v2.3.81-pre Now Available for Download!",
+    "body": "A new pre-release (v2.3.81-pre) of modcore Extension Manager is now available on GitHub. This version is for previewing upcoming features and gathering feedback; it's not yet ready for production use. Download it here: https://github.com/modcoretech/modcore-extension-manager/releases/tag/v2.3.81-pre"
   }
 ]
