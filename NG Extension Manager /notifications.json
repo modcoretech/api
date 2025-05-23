@@ -27,6 +27,6 @@
     "id": "addon-store-shutdown-001",
     "type": "info",
     "title": "Add-on Store Will Be Removed in v2.3.81",
-    "body": "The Add-on Store will no longer be included in NG Extension Manager starting with version 2.3.81. While you can still download add-ons manually from our GitHub repository, they will no longer integrate into NGEM. Older versions may still display the store, but functionality is not guaranteed. Learn more: https://shorturl.at/sF5qX"
+    "body": "The Add-on Store will no longer be included in NG Extension Manager starting with version 2.3.81. While you can still download add-ons manually from our GitHub repository, they will no longer integrate into NGEM. Older versions may still display the store, but functionality is not guaranteed."
   }
 ]
