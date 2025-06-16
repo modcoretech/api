@@ -44,12 +44,32 @@
     {
       "id": "puadonnokgofgofonlincdglkghceghm",
       "name": "The Great Suspender (Original)",
-      "reason": "This extension was removed from the store due to reports of malware."
+      "reason": "This extension was removed from the store due to reports of malware.",
+      "alternatives": [
+        {
+          "name": "Tab Suspender",
+          "url": "https://chrome.google.com/webstore/detail/tab-suspender/fiabciakcmgepblmdhfjbphfkikjfngj"
+        },
+        {
+          "name": "The Marvellous Suspender",
+          "url": "https://chrome.google.com/webstore/detail/the-marvellous-suspender/gbhchopilhidiclltkhakpmjdebokofl"
+        }
+      ]
     },
     {
       "id": "bmnlcjabgnpnenekpadlanbbkooimhnj",
       "name": "Honey",
-      "reason": "Reported as a potentially problematic or scam extension. Consider uninstalling for security."
+      "reason": "Reported as a potentially problematic or scam extension. Consider uninstalling for security.",
+      "alternatives": [
+        {
+          "name": "Browser's built-in coupon features (e.g., Chrome's Shopping)",
+          "url": "https://support.google.com/chrome/answer/12693998"
+        },
+        {
+          "name": "Capital One Shopping",
+          "url": "https://chrome.google.com/webstore/detail/capital-one-shopping-coupo/nenlahapcbofgnanklpelkaejcehkggg"
+        }
+      ]
     }
   ]
 }
