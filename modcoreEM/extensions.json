@@ -27,7 +27,6 @@
       "description": "Multiple coupon extensions may override each other, preventing you from getting the best deal.",
       "conflict_level": "warning",
       "extension_ids": [
-        // "bmnlcjabgnpnenekpadlanbbkooimhnj", // Honey's ID removed from conflicts
         "nenlahapcbofgnanklpelkaejcehkggg"
       ]
     },
