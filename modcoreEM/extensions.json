@@ -8,8 +8,8 @@
       "description": "Running multiple ad blockers can slow down your browser and cause websites to break.",
       "conflict_level": "critical",
       "extension_ids": [
-        "cjpalhdlnbpafiamejdnhcphjbkeiagm", 
-        "gighmmpiobklfepjocnamgkkbiglidom", 
+        "cjpalhdlnbpafiamejdnhcphjbkeiagm",
+        "gighmmpiobklfepjocnamgkkbiglidom",
         "cfhdojbkjhnklbpkdaibdccddilifddb"
       ]
     },
@@ -18,7 +18,7 @@
       "description": "Activating multiple VPN extensions simultaneously can lead to network conflicts or connection drops.",
       "conflict_level": "critical",
       "extension_ids": [
-        "bihmplhobchoageeokmgbdihknkjbknd", 
+        "bihmplhobchoageeokmgbdihknkjbknd",
         "omextjvepefiiawknfcfcbecgbprfhgn"
       ]
     },
@@ -27,7 +27,7 @@
       "description": "Multiple coupon extensions may override each other, preventing you from getting the best deal.",
       "conflict_level": "warning",
       "extension_ids": [
-        "bmnlcjabgnpnenekpadlanbbkooimhnj", 
+        // "bmnlcjabgnpnenekpadlanbbkooimhnj", // Honey's ID removed from conflicts
         "nenlahapcbofgnanklpelkaejcehkggg"
       ]
     },
@@ -46,6 +46,11 @@
       "id": "puadonnokgofgofonlincdglkghceghm",
       "name": "The Great Suspender (Original)",
       "reason": "This extension was removed from the store due to reports of malware."
+    },
+    {
+      "id": "bmnlcjabgnpnenekpadlanbbkooimhnj",
+      "name": "Honey",
+      "reason": "Reported as a potentially problematic or scam extension. Consider uninstalling for security."
     }
   ]
 }
