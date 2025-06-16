@@ -1,15 +1,51 @@
 {
-  "extension_categories": {
-    "Ad Blockers": [
-      "cjpalhdlnbpafiamejdnhcphjbkeiagm",
-      "cfhdojbkjhnklbpkdaibdccddilifddb"
-    ],
-    "Password Managers": [
-      "nngceckbapebfimnlniiabkocdeiikga"
-    ],
-    "Developer Tools": [
-      "fmkadmapgofadopljbjfkapdkoienihi",
-      "nhdogjmejiglipccpnnnanhbledajbpd"
-    ]
-  }
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "version": "2.0.0",
+  "last_updated": "2025-06-16T05:00:00Z",
+  "conflict_categories": [
+    {
+      "name": "Ad Blockers",
+      "description": "Running multiple ad blockers can slow down your browser and cause websites to break.",
+      "conflict_level": "critical",
+      "extension_ids": [
+        "cjpalhdlnbpafiamejdnhcphjbkeiagm", 
+        "gighmmpiobklfepjocnamgkkbiglidom", 
+        "cfhdojbkjhnklbpkdaibdccddilifddb"
+      ]
+    },
+    {
+      "name": "VPN Services",
+      "description": "Activating multiple VPN extensions simultaneously can lead to network conflicts or connection drops.",
+      "conflict_level": "critical",
+      "extension_ids": [
+        "bihmplhobchoageeokmgbdihknkjbknd", 
+        "omextjvepefiiawknfcfcbecgbprfhgn"
+      ]
+    },
+    {
+      "name": "Shopping Coupon Finders",
+      "description": "Multiple coupon extensions may override each other, preventing you from getting the best deal.",
+      "conflict_level": "warning",
+      "extension_ids": [
+        "bmnlcjabgnpnenekpadlanbbkooimhnj", 
+        "nenlahapcbofgnanklpelkaejcehkggg"
+      ]
+    },
+    {
+      "name": "Tab Managers",
+      "description": "Using several tab managers can lead to conflicts in organizing and suspending tabs.",
+      "conflict_level": "warning",
+      "extension_ids": [
+        "ookokmfdekelhmjleelpkfjpkfjgancg",
+        "hfjbmagddngcpeloejdejnfgbamkjaeg"
+      ]
+    }
+  ],
+  "deprecated_extensions": [
+    {
+      "id": "puadonnokgofgofonlincdglkghceghm",
+      "name": "The Great Suspender (Original)",
+      "reason": "This extension was removed from the store due to reports of malware."
+    }
+  ]
 }
