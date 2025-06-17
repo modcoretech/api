@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "extensions": [
+    {
+      "id": "iboiijmfhfjpojjlgpfmjlgffjdedlbe",
+      "name": "test",
+      "support": {
+        "PayPal": "https://paypal.me/developer-name",
+        "Ko-fi": "https://ko-fi.com/developer-name",
+        "Patreon": "https://patreon.com/developer-name"
+      }
+    },
+    {
+      "id": "another-unique-extension-id-abc123",
+      "name": "Another Great Tool",
+      "support": {
+        "GitHub": "https://github.com/sponsors/developer-name"
+      }
+    }
+  ]
+}
