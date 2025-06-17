@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft-07/schema#",
-  "version": "2.0.0",
-  "last_updated": "2025-06-16T05:00:00Z",
+  "version": "3.0.0",
+  "last_updated": "2025-06-17T10:44:35Z",
   "conflict_categories": [
     {
       "name": "Ad Blockers",
@@ -10,7 +10,8 @@
       "extension_ids": [
         "cjpalhdlnbpafiamejdnhcphjbkeiagm",
         "gighmmpiobklfepjocnamgkkbiglidom",
-        "cfhdojbkjhnklbpkdaibdccddilifddb"
+        "cfhdojbkjhnklbpkdaibdccddilifddb",
+        "adjpjflpnoekgghhclnfkcpgnhnnbgcn"
       ]
     },
     {
@@ -19,7 +20,8 @@
       "conflict_level": "critical",
       "extension_ids": [
         "bihmplhobchoageeokmgbdihknkjbknd",
-        "omextjvepefiiawknfcfcbecgbprfhgn"
+        "omextjvepefiiawknfcfcbecgbprfhgn",
+        "mpfjocjhfcpddlpfpfgjphpijddhhjlb"
       ]
     },
     {
@@ -27,7 +29,8 @@
       "description": "Multiple coupon extensions may override each other, preventing you from getting the best deal.",
       "conflict_level": "warning",
       "extension_ids": [
-        "nenlahapcbofgnanklpelkaejcehkggg"
+        "nenlahapcbofgnanklpelkaejcehkggg",
+        "pdffkkhcgoeeoaoeanjbdphjkhnpdclm"
       ]
     },
     {
@@ -36,7 +39,36 @@
       "conflict_level": "warning",
       "extension_ids": [
         "ookokmfdekelhmjleelpkfjpkfjgancg",
-        "hfjbmagddngcpeloejdejnfgbamkjaeg"
+        "hfjbmagddngcpeloejdejnfgbamkjaeg",
+        "dbglmbgeclcpceoljmjcdgfdklcebchb"
+      ]
+    },
+    {
+      "name": "Proxy/Network Controllers",
+      "description": "Multiple extensions attempting to control network proxy settings can cause connectivity issues or instability.",
+      "conflict_level": "critical",
+      "extension_ids": [
+        "fjoaledfpmneencfdlkfjplbbhmgnnem",
+        "dgppgddjaoonchgmgclmfbcljcgfknon"
+      ]
+    },
+    {
+      "name": "Screenshot/Screen Recorders",
+      "description": "Using more than one screenshot or screen recording tool may lead to hotkey conflicts or unexpected behavior.",
+      "conflict_level": "warning",
+      "extension_ids": [
+        "mgnjflpnhknhjkmjijjohkgglajdbbfo",
+        "ghopcgmkklbkkclbdeglfnnfndolaimc"
+      ]
+    },
+    {
+      "name": "Password Managers",
+      "description": "Activating multiple password manager extensions can cause auto-fill conflicts, duplicate entries, or security vulnerabilities.",
+      "conflict_level": "critical",
+      "extension_ids": [
+        "nngceckbapebfimnlniiiahkmdabfmma",
+        "hdokiejnpimkglfgapgeagieiglaoebb",
+        "aomjjusjgnookdclbggcaicnmgbgcoop"
       ]
     }
   ],
@@ -68,6 +100,36 @@
         {
           "name": "Capital One Shopping",
           "url": "https://chrome.google.com/webstore/detail/capital-one-shopping-coupo/nenlahapcbofgnanklpelkaejcehkggg"
+        }
+      ]
+    },
+    {
+      "id": "kjcmoljnjbllfgpknlmmhpbcokcpmgdl",
+      "name": "SaveFrom.net Helper",
+      "reason": "This extension has been associated with adware and unwanted software. It's recommended to use official download methods.",
+      "alternatives": [
+        {
+          "name": "Official YouTube download features",
+          "url": "https://support.google.com/youtube/answer/12109677"
+        },
+        {
+          "name": "Reputable video download software",
+          "url": "https://www.google.com/search?q=safe+youtube+video+downloader"
+        }
+      ]
+    },
+    {
+      "id": "okfmdjjhkhhkmfldakdfgngeakbopgfm",
+      "name": "Web of Trust (WOT)",
+      "reason": "Previously faced privacy concerns regarding user data collection. Newer versions might be improved, but caution is advised.",
+      "alternatives": [
+        {
+          "name": "Google Safe Browse (built-in)",
+          "url": "https://safeBrowse.google.com/"
+        },
+        {
+          "name": "Other reputable security extensions (e.g., Avast Online Security)",
+          "url": "https://chrome.google.com/webstore/detail/avast-online-security-pr/gpdjojdkbbmdfjfahjpmccmkmoplnnnj"
         }
       ]
     }
