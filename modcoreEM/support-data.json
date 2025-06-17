@@ -1,20 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": "2.0",
   "extensions": [
     {
       "id": "iboiijmfhfjpojjlgpfmjlgffjdedlbe",
-      "name": "test",
+      "name": "modcore Extension Manager",
       "support": {
-        "PayPal": "https://paypal.me/developer-name",
-        "Ko-fi": "https://ko-fi.com/developer-name",
-        "Patreon": "https://patreon.com/developer-name"
+        "story": "Your support helps cover server costs and allows me to dedicate more time to developing new features and providing faster user support. Every little bit helps!",
+        "links": {
+          "Ko-fi": "https://ko-fi.com/modcore",
+          "GitHub Sponsors": "https://github.com/sponsors/modcoretech"
+        }
       }
     },
     {
       "id": "another-unique-extension-id-abc123",
       "name": "Another Great Tool",
       "support": {
-        "GitHub": "https://github.com/sponsors/developer-name"
+        "links": {
+            "Patreon": "https://patreon.com/developer-name"
+        }
       }
     }
   ]
