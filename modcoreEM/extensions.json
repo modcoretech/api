@@ -1,136 +1,165 @@
 {
   "$schema": "https://json-schema.org/draft-07/schema#",
-  "version": "3.0.0",
-  "last_updated": "2025-06-17T10:44:35Z",
+  "version": "4.0.0",
+  "last_updated": "2025-07-12T15:00:00Z",
   "conflict_categories": [
     {
+      "category_id": "ad-blockers",
       "name": "Ad Blockers",
-      "description": "Running multiple ad blockers can slow down your browser and cause websites to break.",
-      "conflict_level": "critical",
+      "description": "Running multiple ad blockers can slow down your browser, consume more resources, and cause websites to display incorrectly or break entirely.",
+      "conflict_level": "high",
+      "recommended_action": "Keep only one active ad blocker. Disable or remove others to ensure optimal performance and website compatibility.",
       "extension_ids": [
         "cjpalhdlnbpafiamejdnhcphjbkeiagm",
         "gighmmpiobklfepjocnamgkkbiglidom",
         "cfhdojbkjhnklbpkdaibdccddilifddb"
-      ]
+      ],
+      "source_url": "https://sites.google.com/view/ng-extension-manager/why-you-shouldnt-use-multiple-ad-blockers"
     },
     {
+      "category_id": "vpn-services",
       "name": "VPN Services",
-      "description": "Activating multiple VPN extensions simultaneously can lead to network conflicts or connection drops.",
+      "description": "Activating multiple VPN extensions simultaneously can lead to network conflicts, unstable connections, IP address leaks, or significantly reduced browsing speed.",
       "conflict_level": "critical",
+      "recommended_action": "Use only one VPN extension at a time. If you need different VPN services, ensure only one is enabled when in use.",
       "extension_ids": [
         "bihmplhobchoageeokmgbdihknkjbknd",
         "omextjvepefiiawknfcfcbecgbprfhgn",
         "mpfjocjhfcpddlpfpfgjphpijddhhjlb"
-      ]
+      ],
+      "source_url": "https://sites.google.com/view/ng-extension-manager/why-you-shouldnt-use-two-vpn-services-at-the-same-time"
     },
     {
+      "category_id": "shopping-coupon-finders",
       "name": "Shopping Coupon Finders",
-      "description": "Multiple coupon extensions may override each other, preventing you from getting the best deal.",
-      "conflict_level": "warning",
+      "description": "Multiple coupon extensions may override each other's functionality, preventing you from automatically applying the best available deals or causing checkout issues.",
+      "conflict_level": "medium",
+      "recommended_action": "Choose your preferred coupon extension and disable or remove others. You can always enable another if a specific deal requires it.",
       "extension_ids": [
-        "nenlahapcbofgnanklpelkaejcehkggg",
-        "pdffkkhcgoeeoaoeanjbdphjkhnpdclm"
-      ]
+        "nenlahapcbofgnanklpelkaejcehkggg"
+      ],
+      "source_url": "https://support.google.com/chrome_webstore/answer/2664769"
     },
     {
+      "category_id": "tab-managers",
       "name": "Tab Managers",
-      "description": "Using several tab managers can lead to conflicts in organizing and suspending tabs.",
-      "conflict_level": "warning",
+      "description": "Using several tab management extensions can lead to conflicts in organizing, suspending, or restoring tabs, potentially resulting in lost sessions or unexpected tab behavior.",
+      "conflict_level": "medium",
+      "recommended_action": "Select one primary tab manager that best suits your workflow and keep it active. Disable or remove redundant ones.",
       "extension_ids": [
-        "ookokmfdekelhmjleelpkfjpkfjgancg",
-        "hfjbmagddngcpeloejdejnfgbamkjaeg",
-        "dbglmbgeclcpceoljmjcdgfdklcebchb"
-      ]
+        "ailcmbgekjpnablpdkmaaccecekgdhlh",
+        "icbcnjlaegndjabnjbaeihnnmidbfigk",
+        "iofngkkljgebpllggmdpcldpifhdckkg"
+      ],
+      "source_url": "https://support.google.com/chrome_webstore/answer/2664769"
     },
     {
+      "category_id": "proxy-network-controllers",
       "name": "Proxy/Network Controllers",
-      "description": "Multiple extensions attempting to control network proxy settings can cause connectivity issues or instability.",
+      "description": "Multiple extensions attempting to control network proxy settings or modify network requests can cause severe connectivity issues, internet instability, or expose your browsing data.",
       "conflict_level": "critical",
+      "recommended_action": "Only one network or proxy control extension should be active at any given time to prevent network disruptions and security risks.",
       "extension_ids": [
-        "fjoaledfpmneencfdlkfjplbbhmgnnem",
-        "dgppgddjaoonchgmgclmfbcljcgfknon"
-      ]
+        "eppiocemhmnlbhjplcgkofciiegomcon",
+        "fgddmllnllkalaagkghckoinaemmogpe"
+      ],
+      "source_url": "https://sites.google.com/view/ng-extension-manager/why-you-shouldnt-run-multiple-proxy-or-network-controller-tools"
     },
     {
+      "category_id": "screenshot-screen-recorders",
       "name": "Screenshot/Screen Recorders",
-      "description": "Using more than one screenshot or screen recording tool may lead to hotkey conflicts or unexpected behavior.",
-      "conflict_level": "warning",
+      "description": "Using more than one screenshot or screen recording tool may lead to hotkey conflicts, unexpected capture behavior, or resource contention, slowing down your system.",
+      "conflict_level": "low",
+      "recommended_action": "Stick to one primary screenshot or screen recording tool to avoid conflicts and ensure reliable functionality.",
       "extension_ids": [
-        "mgnjflpnhknhjkmjijjohkgglajdbbfo",
-        "ghopcgmkklbkkclbdeglfnnfndolaimc"
-      ]
+        "hniebljpgcogalllopnjokppmgbhaden",
+        "eclbecdgdoahkliaijlpkigldlkojjdn",
+        "mmeijimgabbpbgpdklnllpncmdofkcpn",
+        "nlipoenfbbikpbjkfpfillcgkoblgpmj",
+        "liecbddmkiiihnedobmlmillhodjkdmb"
+      ],
+      "source_url": "https://support.google.com/chrome_webstore/answer/2664769"
     },
     {
+      "category_id": "password-managers",
       "name": "Password Managers",
-      "description": "Activating multiple password manager extensions can cause auto-fill conflicts, duplicate entries, or security vulnerabilities.",
+      "description": "Activating multiple password manager extensions can cause auto-fill conflicts, duplicate entries, data synchronization issues, or even create security vulnerabilities if not managed carefully.",
       "conflict_level": "critical",
+      "recommended_action": "It is highly recommended to use only one password manager extension to avoid data corruption, auto-fill errors, and potential security gaps.",
       "extension_ids": [
         "nngceckbapebfimnlniiiahkmdabfmma",
-        "hdokiejnpimkglfgapgeagieiglaoebb",
-        "aomjjusjgnookdclbggcaicnmgbgcoop"
-      ]
+        "fdjamakpfbbddfjaooikfcpapjohcfmg",
+        "bfogiafebfohielmmehodmfbbebbbpei",
+        "caljgklbbfbcjjanaijlacgncafpegll",
+        "aeblfdkhhhdcdjpifhhbdiojplfjncoa"
+      ],
+      "source_url": "https://support.google.com/chrome_webstore/answer/2664769"
     }
   ],
   "deprecated_extensions": [
     {
-      "id": "puadonnokgofgofonlincdglkghceghm",
+      "id": "klbibkeccnjlkjkiokjodocebajanakg",
       "name": "The Great Suspender (Original)",
-      "reason": "This extension was removed from the store due to reports of malware.",
+      "reason": "This extension was removed from the Chrome Web Store due to reports of malware and malicious activity. It poses a significant security risk.",
+      "security_risk_level": "critical",
+      "recommended_action": "Immediately uninstall this extension. It is unsafe to keep installed.",
       "alternatives": [
         {
           "name": "Tab Suspender",
-          "url": "https://chrome.google.com/webstore/detail/tab-suspender/fiabciakcmgepblmdhfjbphfkikjfngj"
-        },
-        {
-          "name": "The Marvellous Suspender",
-          "url": "https://chrome.google.com/webstore/detail/the-marvellous-suspender/gbhchopilhidiclltkhakpmjdebokofl"
+          "url": "https://chromewebstore.google.com/detail/tab-suspender/fiabciakcmgepblmdkmemdbbkilneeeh"
         }
-      ]
+      ],
+      "source_url": "https://www.partizion.io/blog/the-great-suspender-contains-malware"
     },
     {
       "id": "bmnlcjabgnpnenekpadlanbbkooimhnj",
       "name": "Honey",
-      "reason": "Reported as a potentially problematic or scam extension. Consider uninstalling for security.",
+      "reason": "While popular, some versions or behaviors of this extension have been reported as potentially problematic, including data collection practices or aggressive pop-ups. Review its permissions carefully.",
+      "security_risk_level": "medium",
+      "recommended_action": "Review its permissions and consider if you are comfortable with its data access. Browser-built-in features or other reputable alternatives might offer similar functionality with fewer concerns.",
       "alternatives": [
         {
           "name": "Browser's built-in coupon features (e.g., Chrome's Shopping)",
-          "url": "https://support.google.com/chrome/answer/12693998"
-        },
-        {
-          "name": "Capital One Shopping",
-          "url": "https://chrome.google.com/webstore/detail/capital-one-shopping-coupo/nenlahapcbofgnanklpelkaejcehkggg"
+          "url": "https://support.google.com/chrome/answer/11625545"
         }
-      ]
+      ],
+      "source_url": "https://www.theverge.com/24343913/paypal-honey-megalag-coupon-scam-affiliate-fees"
     },
     {
-      "id": "kjcmoljnjbllfgpknlmmhpbcokcpmgdl",
+      "id": "bkemklnfmefiejflhjpelnoopmehdkaf",
       "name": "SaveFrom.net Helper",
-      "reason": "This extension has been associated with adware and unwanted software. It's recommended to use official download methods.",
+      "reason": "This extension has been associated with adware, unwanted software, and potential privacy issues. It often modifies search results or injects ads.",
+      "security_risk_level": "high",
+      "recommended_action": "Uninstall this extension. Use official platform features or well-vetted, reputable download tools for media.",
       "alternatives": [
         {
           "name": "Official YouTube download features",
-          "url": "https://support.google.com/youtube/answer/12109677"
+          "url": "https://support.google.com/youtube/answer/7381437"
         },
         {
-          "name": "Reputable video download software",
+          "name": "Reputable video download software (search for trusted options)",
           "url": "https://www.google.com/search?q=safe+youtube+video+downloader"
         }
-      ]
+      ],
+      "source_url": "https://sites.google.com/view/ng-extension-manager/why-you-should-avoid-the-savefrom-net-helper-extension-and-website"
     },
     {
-      "id": "okfmdjjhkhhkmfldakdfgngeakbopgfm",
+      "id": "bhmmomiinigofkjcapegjjndpbikblnp",
       "name": "Web of Trust (WOT)",
-      "reason": "Previously faced privacy concerns regarding user data collection. Newer versions might be improved, but caution is advised.",
+      "reason": "Previously faced significant privacy concerns regarding user browsing data collection and sale. Although newer versions claim improvements, caution is still advised due to its history.",
+      "security_risk_level": "medium",
+      "recommended_action": "Consider using built-in browser security features or alternative, transparent security extensions.",
       "alternatives": [
         {
-          "name": "Google Safe Browse (built-in)",
-          "url": "https://safeBrowse.google.com/"
+          "name": "Google Safe Browsing (built-in to Chrome)",
+          "url": "https://safebrowsing.google.com/"
         },
         {
-          "name": "Other reputable security extensions (e.g., Avast Online Security)",
-          "url": "https://chrome.google.com/webstore/detail/avast-online-security-pr/gpdjojdkbbmdfjfahjpmccmkmoplnnnj"
+          "name": "Avast Online Security & Privacy",
+          "url": "https://chromewebstore.google.com/detail/avast-online-security-pri/gomekmidlodglbbmalcneegieacbdmki"
         }
-      ]
+      ],
+      "source_url": "https://sites.google.com/view/ng-extension-manager/why-you-should-be-cautious-with-the-web-of-trust-wot-extension"
     }
   ]
 }
