@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft-07/schema#",
-  "version": "4.0.0",
-  "last_updated": "2025-07-12T15:00:00Z",
+  "version": "5.0.0",
+  "last_updated": "2025-03-01T12:00:00Z",
   "conflict_categories": [
     {
       "category_id": "ad-blockers",
@@ -14,7 +14,9 @@
         "gighmmpiobklfepjocnamgkkbiglidom",
         "cfhdojbkjhnklbpkdaibdccddilifddb",
         "bgnkhhnnamicmpeenaelnjfhikgbkllg",
-        "ddkjiahejlhfcafbddmgiahcphecmpfh"
+        "ddkjiahejlhfcafbddmgiahcphecmpfh",
+        "pdffkfellgipmhklpdmokmckkkfcopbh",
+        "lfmihhihglmemglopadopdgbjleicipp"
       ],
       "source_url": "https://sites.google.com/view/ng-extension-manager/why-you-shouldnt-use-multiple-ad-blockers"
     },
@@ -27,7 +29,10 @@
       "extension_ids": [
         "bihmplhobchoageeokmgbdihknkjbknd",
         "omextjvepefiiawknfcfcbecgbprfhgn",
-        "mpfjocjhfcpddlpfpfgjphpijddhhjlb"
+        "mpfjocjhfcpddlpfpfgjphpijddhhjlb",
+        "fdcgdnkidjaadafnichpbafifphefapj",
+        "bikoocchboflfmgaijbemciddpjbgg1",
+        "padekgcemlokbadohgkifijomclgigjf"
       ],
       "source_url": "https://sites.google.com/view/ng-extension-manager/why-you-shouldnt-use-two-vpn-services-at-the-same-time"
     },
@@ -38,7 +43,10 @@
       "conflict_level": "medium",
       "recommended_action": "Choose your preferred coupon extension and disable or remove others. You can always enable another if a specific deal requires it.",
       "extension_ids": [
-        "nenlahapcbofgnanklpelkaejcehkggg"
+        "nenlahapcbofgnanklpelkaejcehkggg",
+        "bmnlcjabgnpnenekpadlanbbkooimhnj",
+        "khhckppjhonfmcpegdmfmlgjpibogfkd",
+        "ehghoimnpgpdffdbanffgbldlgpnemdf"
       ],
       "source_url": "https://support.google.com/chrome_webstore/answer/2664769"
     },
@@ -51,7 +59,9 @@
       "extension_ids": [
         "ailcmbgekjpnablpdkmaaccecekgdhlh",
         "icbcnjlaegndjabnjbaeihnnmidbfigk",
-        "iofngkkljgebpllggmdpcldpifhdckkg"
+        "iofngkkljgebpllggmdpcldpifhdckkg",
+        "klbibkeccnjlkjkiokjodocebajanakg",
+        "fiabciakcmgepblmdkmemdbbkilneeeh"
       ],
       "source_url": "https://support.google.com/chrome_webstore/answer/2664769"
     },
@@ -63,7 +73,8 @@
       "recommended_action": "Only one network or proxy control extension should be active at any given time to prevent network disruptions and security risks.",
       "extension_ids": [
         "eppiocemhmnlbhjplcgkofciiegomcon",
-        "fgddmllnllkalaagkghckoinaemmogpe"
+        "fgddmllnllkalaagkghckoinaemmogpe",
+        "agbohcjlbkmjbhmkngohighagpdkockc"
       ],
       "source_url": "https://sites.google.com/view/ng-extension-manager/why-you-shouldnt-run-multiple-proxy-or-network-controller-tools"
     },
@@ -78,7 +89,8 @@
         "eclbecdgdoahkliaijlpkigldlkojjdn",
         "mmeijimgabbpbgpdklnllpncmdofkcpn",
         "nlipoenfbbikpbjkfpfillcgkoblgpmj",
-        "liecbddmkiiihnedobmlmillhodjkdmb"
+        "liecbddmkiiihnedobmlmillhodjkdmb",
+        "blipmdconlkpinefehnmjammfjpmpbjk"
       ],
       "source_url": "https://support.google.com/chrome_webstore/answer/2664769"
     },
@@ -93,7 +105,47 @@
         "fdjamakpfbbddfjaooikfcpapjohcfmg",
         "bfogiafebfohielmmehodmfbbebbbpei",
         "caljgklbbfbcjjanaijlacgncafpegll",
-        "aeblfdkhhhdcdjpifhhbdiojplfjncoa"
+        "aeblfdkhhhdcdjpifhhbdiojplfjncoa",
+        "hdokiejnpimakedhajhdlcegeplioahd"
+      ],
+      "source_url": "https://support.google.com/chrome_webstore/answer/2664769"
+    },
+    {
+      "category_id": "grammar-checkers",
+      "name": "Grammar & Writing Assistants",
+      "description": "Multiple grammar checking extensions can interfere with each other's text analysis, causing performance issues, conflicting suggestions, or text input problems.",
+      "conflict_level": "medium",
+      "recommended_action": "Choose one grammar checking extension and disable others to ensure consistent writing assistance.",
+      "extension_ids": [
+        "kbfnbcaeplbcioakkpcpgfkobkghlhen",
+        "lfhngppjjokndfhbkmpgfdpefmojdmhn",
+        "olnopdgccohnidjmamnjlkbapjfnipgc"
+      ],
+      "source_url": "https://support.google.com/chrome_webstore/answer/2664769"
+    },
+    {
+      "category_id": "dark-mode-extensions",
+      "name": "Dark Mode Extensions",
+      "description": "Running multiple dark mode extensions simultaneously can cause visual glitches, website rendering issues, and performance degradation due to conflicting CSS injections.",
+      "conflict_level": "low",
+      "recommended_action": "Use only one dark mode extension. Browser-built-in dark mode is preferred for best compatibility.",
+      "extension_ids": [
+        "pjabknndiglcpejaehmplbhmfdjghdph",
+        "eimadpbcbfnmbkopoojfekhnkhdbieeh",
+        "dmghijelimhndkbmpgbldicpogfkceaj"
+      ],
+      "source_url": "https://support.google.com/chrome_webstore/answer/2664769"
+    },
+    {
+      "category_id": "new-tab-redirects",
+      "name": "New Tab Customizers",
+      "description": "Multiple new tab extensions will conflict with each other, causing redirect loops, broken new tab pages, or unwanted homepage changes.",
+      "conflict_level": "medium",
+      "recommended_action": "Keep only one new tab customization extension active.",
+      "extension_ids": [
+        "glckmpfajbjppappjlnhhlofhdhlcgaj",
+        "icpgjfneehieebagbmgelnmpkifkdgih",
+        "flejfnmjndcdldfngjdfkjcmmfjmfgfc"
       ],
       "source_url": "https://support.google.com/chrome_webstore/answer/2664769"
     }
@@ -109,6 +161,10 @@
         {
           "name": "Tab Suspender",
           "url": "https://chromewebstore.google.com/detail/tab-suspender/fiabciakcmgepblmdkmemdbbkilneeeh"
+        },
+        {
+          "name": "OneTab",
+          "url": "https://chromewebstore.google.com/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall"
         }
       ],
       "source_url": "https://www.partizion.io/blog/the-great-suspender-contains-malware"
@@ -123,6 +179,10 @@
         {
           "name": "Browser's built-in coupon features (e.g., Chrome's Shopping)",
           "url": "https://support.google.com/chrome/answer/11625545"
+        },
+        {
+          "name": "Rakuten Get Cashback For Shopping",
+          "url": "https://chromewebstore.google.com/detail/rakuten-get-cashback-for/chhjbpecpncaggjpdakmflnfcopglcmi"
         }
       ],
       "source_url": "https://www.theverge.com/24343913/paypal-honey-megalag-coupon-scam-affiliate-fees"
@@ -135,12 +195,8 @@
       "recommended_action": "Uninstall this extension. Use official platform features or well-vetted, reputable download tools for media.",
       "alternatives": [
         {
-          "name": "Official YouTube download features",
-          "url": "https://support.google.com/youtube/answer/7381437"
-        },
-        {
-          "name": "Reputable video download software (search for trusted options)",
-          "url": "https://www.google.com/search?q=safe+youtube+video+downloader"
+          "name": "Official YouTube Premium",
+          "url": "https://www.youtube.com/premium"
         }
       ],
       "source_url": "https://sites.google.com/view/ng-extension-manager/why-you-should-avoid-the-savefrom-net-helper-extension-and-website"
@@ -157,11 +213,584 @@
           "url": "https://safebrowsing.google.com/"
         },
         {
-          "name": "Avast Online Security & Privacy",
-          "url": "https://chromewebstore.google.com/detail/avast-online-security-pri/gomekmidlodglbbmalcneegieacbdmki"
+          "name": "Malwarebytes Browser Guard",
+          "url": "https://chromewebstore.google.com/detail/malwarebytes-browser-guar/ihcjicgdanjaechkgeegckofjjednepc"
         }
       ],
       "source_url": "https://sites.google.com/view/ng-extension-manager/why-you-should-be-cautious-with-the-web-of-trust-wot-extension"
+    },
+    {
+      "id": "glckmpfajbjppappjlnhhlofhdhlcgaj",
+      "name": "Good Tab",
+      "reason": "Exposes clipboard to remote third-party domains via insecure HTTP, enabling clipboard-read and clipboard-write permissions to suspicious domains. Contains hidden tracking scripts and Baidu analytics. Could enable clipboard-based attacks including cryptocurrency address swapping.",
+      "security_risk_level": "critical",
+      "recommended_action": "Immediately uninstall this extension. It has full clipboard access to a remote server and poses severe privacy and security risks.",
+      "alternatives": [
+        {
+          "name": "Momentum",
+          "url": "https://chromewebstore.google.com/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca"
+        },
+        {
+          "name": "Infinity New Tab",
+          "url": "https://chromewebstore.google.com/detail/infinity-new-tab/dbfmnekepjoapopniengjbcpnbljalfg"
+        }
+      ],
+      "source_url": "https://thehackernews.com/2026/01/researchers-uncover-chrome-extensions.html"
+    },
+    {
+      "id": "giecgobdmgdamgffeoankaipjkdjbfep",
+      "name": "Children Protection",
+      "reason": "Implements functionality to harvest cookies, inject ads, and execute arbitrary JavaScript by contacting a remote server. Disguised as a parental control tool but performs malicious data collection.",
+      "security_risk_level": "critical",
+      "recommended_action": "Immediately uninstall this extension. It harvests browser cookies and can execute arbitrary remote code.",
+      "alternatives": [
+        {
+          "name": "Qustodio Parental Control",
+          "url": "https://chromewebstore.google.com/detail/qustodio-parental-control/kgkjanfdkcaphmijhkliljebolncdhnk"
+        },
+        {
+          "name": "Google Family Link (built-in)",
+          "url": "https://families.google.com/familylink/"
+        }
+      ],
+      "source_url": "https://thehackernews.com/2026/01/researchers-uncover-chrome-extensions.html"
+    },
+    {
+      "id": "bjoddpbfndnpeohkmpbjfhcppkhgobcg",
+      "name": "DPS Websafe",
+      "reason": "Changes default search to one under attacker control to capture search terms and potentially route users to malicious websites. Performs unauthorized search hijacking.",
+      "security_risk_level": "high",
+      "recommended_action": "Uninstall immediately. This extension hijacks your search queries and may redirect you to malicious sites.",
+      "alternatives": [
+        {
+          "name": "Use browser's default security settings",
+          "url": "chrome://settings/security"
+        }
+      ],
+      "source_url": "https://thehackernews.com/2026/01/researchers-uncover-chrome-extensions.html"
+    },
+    {
+      "id": "beifiidafjobphnbhbbgmgnndjolfcho",
+      "name": "Stock Informer",
+      "reason": "Contains a known cross-site scripting (XSS) vulnerability (CVE-2020-28707) that could allow remote attackers to execute JavaScript code. Susceptible to exploitation for malicious code execution.",
+      "security_risk_level": "high",
+      "recommended_action": "Uninstall this extension due to known security vulnerabilities that could allow remote code execution.",
+      "alternatives": [
+        {
+          "name": "TradingView",
+          "url": "https://chromewebstore.google.com/detail/tradingview/mjoklplcabgfnljdgpffbjpbjdebmjfh"
+        },
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/"
+        }
+      ],
+      "source_url": "https://thehackernews.com/2026/01/researchers-uncover-chrome-extensions.html"
+    },
+    {
+      "id": "fnmihdojmnkclgjpcoonokmkhjpjechg",
+      "name": "Chat GPT for Chrome with GPT-5, Claude Sonnet & DeepSeek AI",
+      "reason": "Malicious imposter extension that exfiltrates ChatGPT and DeepSeek conversations, browsing history, and internal URLs to attacker-controlled servers every 30 minutes. Stole data from 600,000+ users. Had Google's 'Featured' badge despite being malware.",
+      "security_risk_level": "critical",
+      "recommended_action": "Immediately uninstall and change passwords for all accounts accessed while this extension was active. Review ChatGPT history for sensitive data.",
+      "alternatives": [
+        {
+          "name": "Official ChatGPT",
+          "url": "https://chat.openai.com"
+        },
+        {
+          "name": "Legitimate AITOPIA Extension",
+          "url": "https://aitopia.ai"
+        }
+      ],
+      "source_url": "https://www.ox.security/blog/malicious-chrome-extensions-steal-chatgpt-deepseek-conversations/"
+    },
+    {
+      "id": "inhcgfpbfdjbjogdfjbclgolkmhnooop",
+      "name": "AI Sidebar with Deepseek, ChatGPT, Claude and more",
+      "reason": "Part of the same malicious campaign as 'Chat GPT for Chrome'. Exfiltrates AI conversations and browsing data to deepaichats.com C2 server. Collected data from 300,000+ users under false pretense of 'anonymous analytics'.",
+      "security_risk_level": "critical",
+      "recommended_action": "Immediately uninstall. Change passwords and review all AI conversations for exposed sensitive information.",
+      "alternatives": [
+        {
+          "name": "Official ChatGPT",
+          "url": "https://chat.openai.com"
+        },
+        {
+          "name": "Sidebar - ChatGPT/GPT-4o Claude 3.5 (Legitimate)",
+          "url": "https://chromewebstore.google.com/detail/sidebar-chatgptgpt-4o-cla/miijaohkbljncpehlpjjbeiekgfheokh"
+        }
+      ],
+      "source_url": "https://www.ox.security/blog/malicious-chrome-extensions-steal-chatgpt-deepseek-conversations/"
+    },
+    {
+      "id": "jkphinfhmfkckkcnifhjiplhfoiefffl",
+      "name": "CL Suite by @CLMasters",
+      "reason": "Marketed as a Meta Business Suite tool but secretly exfiltrates TOTP 2FA codes, Business Manager contact lists, and analytics data to attacker infrastructure (getauth.pro). Can forward stolen data to Telegram channels controlled by threat actors.",
+      "security_risk_level": "critical",
+      "recommended_action": "Immediately uninstall. Rotate all Meta/Facebook passwords, regenerate 2FA seeds, and review Business Manager access logs for unauthorized activity.",
+      "alternatives": [
+        {
+          "name": "Meta Business Suite (Official)",
+          "url": "https://business.facebook.com/"
+        }
+      ],
+      "source_url": "https://thehackernews.com/2026/02/malicious-chrome-extensions-caught.html"
+    },
+    {
+      "id": "agbohcjlbkmjbhmkngohighagpdkockc",
+      "name": "Phantom Shuttle (Variant 1)",
+      "reason": "Credential-stealing proxy extension that intercepts web traffic from 170+ services. Operates as a subscription-based service but funnels all traffic through attacker-controlled servers. Active since 2017, stole data from ~2,000 users.",
+      "security_risk_level": "critical",
+      "recommended_action": "Immediately uninstall. Change ALL passwords for accounts used while this extension was active. Review financial accounts for unauthorized access.",
+      "alternatives": [
+        {
+          "name": "NordVPN",
+          "url": "https://chromewebstore.google.com/detail/nordvpn-vpn-proxy-for-pri/fjoaledfpmneenckfbpdfhkmimnjocfa"
+        },
+        {
+          "name": "Cloudflare WARP",
+          "url": "https://chromewebstore.google.com/detail/cloudflare-warp-vpn/chnkngifgmdkgfifhjfkkhcdckfplfmc"
+        }
+      ],
+      "source_url": "https://www.linkedin.com/pulse/warning-malicious-chrome-extensions-steal-your-gtrae"
+    },
+    {
+      "id": "lppnbfpgnfaadffmcgfnfcldaaiijmge",
+      "name": "Phantom Shuttle (Variant 2)",
+      "reason": "Second variant of the Phantom Shuttle malicious proxy network. Same infrastructure and developer as the original. Intercepts credentials and web traffic from numerous online services.",
+      "security_risk_level": "critical",
+      "recommended_action": "Immediately uninstall and rotate all credentials for accounts accessed while installed.",
+      "alternatives": [
+        {
+          "name": "Proton VPN",
+          "url": "https://chromewebstore.google.com/detail/proton-vpn-free-vpn-proxy/jplgfhpmjnbigmhklckbljcbahmjjmbg"
+        }
+      ],
+      "source_url": "https://www.linkedin.com/pulse/warning-malicious-chrome-extensions-steal-your-gtrae"
+    },
+    {
+      "id": "efbjmfpofljakplbgekhojngfhaekjdf",
+      "name": "Safery: Ethereum Wallet",
+      "reason": "Fake cryptocurrency wallet that steals seed phrases by encoding them into synthetic Sui-style addresses hidden in blockchain transactions. Uses microtransactions to exfiltrate victim recovery phrases to attackers.",
+      "security_risk_level": "critical",
+      "recommended_action": "Immediately uninstall. If you entered any seed phrase, assume the wallet is compromised. Create new wallets with new seed phrases and transfer funds immediately.",
+      "alternatives": [
+        {
+          "name": "MetaMask (Official)",
+          "url": "https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn"
+        },
+        {
+          "name": "Coinbase Wallet",
+          "url": "https://chromewebstore.google.com/detail/coinbase-wallet-extension/hnfanknocfeofbddgcijnmhnfnkdnaad"
+        }
+      ],
+      "source_url": "https://www.scworld.com/brief/chrome-extension-safery-ethereum-wallet-stealing-seed-phrases-poses-major-cybersecurity-threat"
+    },
+    {
+      "id": "nkbihfbeogaeaoehlefnkodbefgpgknn",
+      "name": "MetaMask (Fake/Impersonator)",
+      "note": "This ID represents known fake impersonators. Verify official ID matches exactly.",
+      "reason": "Fake impersonator of the legitimate MetaMask wallet. Steals cryptocurrency wallet credentials and private keys. Many variants exist with slight name variations.",
+      "security_risk_level": "critical",
+      "recommended_action": "Verify you have the official MetaMask extension from metamask.io. Uninstall any suspicious variants immediately and transfer funds to new wallets if seed phrases were entered.",
+      "alternatives": [
+        {
+          "name": "Official MetaMask (verify at metamask.io)",
+          "url": "https://metamask.io/download/"
+        }
+      ],
+      "source_url": "https://www.nominis.io/insights/the-hidden-dangers-of-crypto-wallet-browser-extensions-a-growing-security-threat"
+    },
+    {
+      "id": "igbodamhgjohafcjnblkeidjiompeloh",
+      "name": "ChatGPT Folder Master",
+      "reason": "One of 16 malicious ChatGPT extensions stealing session tokens. Part of coordinated campaign by single threat actor. Steals authentication tokens to hijack ChatGPT accounts and access conversation history.",
+      "security_risk_level": "critical",
+      "recommended_action": "Uninstall immediately. Log out of all ChatGPT sessions and change your OpenAI password. Review connected apps and revoke suspicious sessions.",
+      "alternatives": [
+        {
+          "name": "Superpower ChatGPT (Legitimate)",
+          "url": "https://chromewebstore.google.com/detail/superpower-chatgpt/amhmeenmapldpjnelbkbcglddjgpaoel"
+        }
+      ],
+      "source_url": "https://hackread.com/fake-chatgpt-extensions-hijack-user-accounts/"
+    },
+    {
+      "id": "pmpocjknhjmnaaligeoekghfkeeknpd",
+      "name": "ChatGPT Prompt Genius",
+      "reason": "Fake ChatGPT extension stealing session tokens. Part of the LayerX-discovered campaign of 16 malicious extensions. Intercepts authorization headers to steal session data.",
+      "security_risk_level": "critical",
+      "recommended_action": "Uninstall immediately and rotate ChatGPT credentials. Check for unauthorized API key usage in your OpenAI account.",
+      "alternatives": [
+        {
+          "name": "AIPRM for ChatGPT",
+          "url": "https://chromewebstore.google.com/detail/aiprm-for-chatgpt/dliejfpljailcklggjmcmgnmjbggkdpk"
+        }
+      ],
+      "source_url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/beware-fake-chatgpt-browser-extensions-are-stealing-your-login-credentials"
+    },
+    {
+      "id": "mnihkjmjhjadkfnmcljckicgjmhgkdl",
+      "name": "ChatGPT History",
+      "reason": "Malicious extension from the 16-extension campaign. Steals ChatGPT session tokens and sends them to attacker-controlled backend. Can access all conversations and connected services.",
+      "security_risk_level": "critical",
+      "recommended_action": "Uninstall immediately. Review ChatGPT history for exposed sensitive data and change your password.",
+      "alternatives": [
+        {
+          "name": "Export ChatGPT Conversation",
+          "url": "https://chromewebstore.google.com/detail/export-chatgpt-conversati/jgjdeginjfkfjkhbpimnkhfcifljpdje"
+        }
+      ],
+      "source_url": "https://cyberscoop.com/chatgpt-browser-extensions-steal-your-data/"
+    },
+    {
+      "id": "lbneaaedflhfjiegkamfiahddpkpceem",
+      "name": "ChatGPT Quick Access",
+      "reason": "Session token stealer from coordinated ChatGPT extension campaign. Intercepts authentication data to hijack accounts.",
+      "security_risk_level": "critical",
+      "recommended_action": "Uninstall immediately and secure your OpenAI account.",
+      "alternatives": [
+        {
+          "name": "Use official ChatGPT website",
+          "url": "https://chat.openai.com"
+        }
+      ],
+      "source_url": "https://www.malwarebytes.com/blog/news/2026/01/malicious-chrome-extensions-can-spy-on-your-chatgpt-chats"
+    },
+    {
+      "id": "jnadmgdkjgnoajanjhojgdannogdfhpj",
+      "name": "GPT-4 Assistant",
+      "reason": "Fake GPT-4 extension stealing user session tokens. Part of the 16-extension malicious network. Can impersonate users and access connected services like Slack and GitHub.",
+      "security_risk_level": "critical",
+      "recommended_action": "Uninstall immediately. Check GitHub, Slack, and other connected services for unauthorized access.",
+      "alternatives": [
+        {
+          "name": "Merlin - AI Powered Assistant",
+          "url": "https://chromewebstore.google.com/detail/merlin-ai-powered-assista/camppjleccjaphfdbohjdohecfnoikek"
+        }
+      ],
+      "source_url": "https://www.darkreading.com/cloud-security/fake-ai-chrome-extensions-steal-900k-users-data"
+    },
+    {
+      "id": "hfgajlbdjjhfkfjmeifdlbhbjhmfekmf",
+      "name": "ChatGPT Voice",
+      "reason": "Malicious voice extension that steals ChatGPT authentication tokens. Part of coordinated campaign. Promises voice features but delivers account hijacking.",
+      "security_risk_level": "critical",
+      "recommended_action": "Uninstall immediately and review account security.",
+      "alternatives": [
+        {
+          "name": "Voice Control for ChatGPT",
+          "url": "https://chromewebstore.google.com/detail/voice-control-for-chatgpt/eollffkcakeeahhffciknldekbhlnhmo"
+        }
+      ],
+      "source_url": "https://hackread.com/fake-chatgpt-extensions-hijack-user-accounts/"
+    },
+    {
+      "id": "fbeogfhkmlgljihlomaglkeppfjleegk",
+      "name": "ChatGPT Export Tool",
+      "reason": "Fake export tool stealing session tokens. Part of 16-extension malicious network. Intercepts ChatGPT authentication data.",
+      "security_risk_level": "critical",
+      "recommended_action": "Uninstall immediately.",
+      "alternatives": [
+        {
+          "name": "ChatGPT to PDF",
+          "url": "https://chromewebstore.google.com/detail/chatgpt-to-pdf/nlmpijpcblfcfnfdlodgjjlbljgjlgge"
+        }
+      ],
+      "source_url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/beware-fake-chatgpt-browser-extensions-are-stealing-your-login-credentials"
+    },
+    {
+      "id": "djfokdnjhmeonngglahebkckljephdph",
+      "name": "ChatGPT Theme Customizer",
+      "reason": "Malicious theme extension from coordinated campaign. Steals session tokens while pretending to offer UI customization.",
+      "security_risk_level": "critical",
+      "recommended_action": "Uninstall immediately.",
+      "alternatives": [
+        {
+          "name": "Stylus (for custom themes)",
+          "url": "https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne"
+        }
+      ],
+      "source_url": "https://cyberscoop.com/chatgpt-browser-extensions-steal-your-data/"
+    },
+    {
+      "id": "cjehckhcgmfldbemdgelgjhlhfhjgnan",
+      "name": "ChatGPT Search",
+      "reason": "Fake search extension stealing ChatGPT credentials. Part of the LayerX-discovered malicious network.",
+      "security_risk_level": "critical",
+      "recommended_action": "Uninstall immediately.",
+      "alternatives": [
+        {
+          "name": "ChatGPT Search (Official OpenAI)",
+          "url": "https://openai.com/search"
+        }
+      ],
+      "source_url": "https://www.malwarebytes.com/blog/news/2026/01/malicious-chrome-extensions-can-spy-on-your-chatgpt-chats"
+    },
+    {
+      "id": "bkoocchboflfmgaijbemciddpjbgg1",
+      "name": "Free VPN Proxy",
+      "reason": "Generic name used by multiple malicious VPN extensions. Often contains traffic logging, ad injection, or credential theft. Many variants exist with similar names.",
+      "security_risk_level": "high",
+      "recommended_action": "Uninstall and use reputable VPN services only. Free VPNs often monetize by selling user data or injecting ads.",
+      "alternatives": [
+        {
+          "name": "Proton VPN (Free tier available)",
+          "url": "https://chromewebstore.google.com/detail/proton-vpn-free-vpn-proxy/jplgfhpmjnbigmhklckbljcbahmjjmbg"
+        },
+        {
+          "name": "Windscribe VPN",
+          "url": "https://chromewebstore.google.com/detail/windscribe-free-proxy-and/hnmpcagpplmpfojmgmnngilcnanddlhb"
+        }
+      ],
+      "source_url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/identify-and-avoid-malicious-browser-extensions/"
+    },
+    {
+      "id": "fdcgdnkidjaadafnichpbafifphefapj",
+      "name": "Unblock Websites",
+      "reason": "Generic proxy extension often associated with traffic interception and data logging. Frequently changes ownership and injects ads or malicious scripts.",
+      "security_risk_level": "high",
+      "recommended_action": "Uninstall and use reputable VPN services with clear privacy policies.",
+      "alternatives": [
+        {
+          "name": "TunnelBear VPN",
+          "url": "https://chromewebstore.google.com/detail/tunnelbear-vpn/omdakjcmkglenbhjadbccaookfpjmgne"
+        }
+      ],
+      "source_url": "https://blog.barracuda.com/2026/02/25/hidden-cybersecurity-risk-browser-extensions"
+    },
+    {
+      "id": "lfmihhihglmemglopadopdgbjleicipp",
+      "name": "AdBlocker Ultimate (Fake)",
+      "reason": "Fake version of legitimate ad blocker. Contains affiliate injection, tracking scripts, or allows 'acceptable ads' from paying advertisers without disclosure.",
+      "security_risk_level": "high",
+      "recommended_action": "Verify you have the legitimate AdBlocker Ultimate. Uninstall suspicious versions.",
+      "alternatives": [
+        {
+          "name": "uBlock Origin (Legitimate)",
+          "url": "https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm"
+        },
+        {
+          "name": "AdGuard AdBlocker",
+          "url": "https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg"
+        }
+      ],
+      "source_url": "https://thehackernews.com/2026/01/researchers-uncover-chrome-extensions.html"
+    },
+    {
+      "id": "pdffkfellgipmhklpdmokmckkkfcopbh",
+      "name": "PDF Converter (Suspicious)",
+      "reason": "Generic PDF tool often associated with ad injection, search hijacking, or data collection. Many variants with similar names exist in the 'shovelware' category.",
+      "security_risk_level": "medium",
+      "recommended_action": "Review permissions carefully. Consider using built-in browser PDF features or reputable alternatives.",
+      "alternatives": [
+        {
+          "name": "Adobe Acrobat PDF extension",
+          "url": "https://chromewebstore.google.com/detail/adobe-acrobat-pdf-edit-co/elfaidnbmndhgbobeoknpgcgpjilpopg"
+        },
+        {
+          "name": "Smallpdf",
+          "url": "https://chromewebstore.google.com/detail/smallpdf-edit-compress-an/ohfgljccgnplbfhkndjkgfajcniggfkg"
+        }
+      ],
+      "source_url": "https://www.security.com/threat-intelligence/chrome-extensions-are-you-getting-more-you-bargained"
+    },
+    {
+      "id": "icpgjfneehieebagbmgelnmpkifkdgih",
+      "name": "New Tab - Custom Start Page",
+      "reason": "Frequently associated with search hijacking, affiliate injection, and unwanted pop-ups. Often bundled with other software.",
+      "security_risk_level": "medium",
+      "recommended_action": "Uninstall if you experience unwanted search changes or pop-ups.",
+      "alternatives": [
+        {
+          "name": "Momentum",
+          "url": "https://chromewebstore.google.com/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca"
+        }
+      ],
+      "source_url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/identify-and-avoid-malicious-browser-extensions/"
+    },
+    {
+      "id": "flejfnmjndcdldfngjdfkjcmmfjmfgfc",
+      "name": "My New Tab",
+      "reason": "Common name used by adware extensions that hijack new tab pages and inject sponsored content or tracking.",
+      "security_risk_level": "medium",
+      "recommended_action": "Uninstall if experiencing unwanted ads or search changes.",
+      "alternatives": [
+        {
+          "name": "Infinity New Tab",
+          "url": "https://chromewebstore.google.com/detail/infinity-new-tab/dbfmnekepjoapopniengjbcpnbljalfg"
+        }
+      ],
+      "source_url": "https://blog.barracuda.com/2026/02/25/hidden-cybersecurity-risk-browser-extensions"
+    },
+    {
+      "id": "chnkngifgmdkgfifhjfkkhcdckfplfmc",
+      "name": "Video Downloader Professional",
+      "reason": "Often contains adware, tracking scripts, or redirects to malicious sites. Many variants steal browsing data or inject unwanted ads.",
+      "security_risk_level": "high",
+      "recommended_action": "Uninstall and use official platform download features or reputable desktop software.",
+      "alternatives": [
+        {
+          "name": "Video DownloadHelper",
+          "url": "https://chromewebstore.google.com/detail/video-downloadhelper/lmjnegcaeklhafolokijcfjliaokphfk"
+        }
+      ],
+      "source_url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/identify-and-avoid-malicious-browser-extensions/"
+    },
+    {
+      "id": "blipmdconlkpinefehnmjammfjpmpbjk",
+      "name": "Screen Recorder",
+      "reason": "Generic screen recorder often associated with excessive permissions, data collection, or bundling with unwanted software.",
+      "security_risk_level": "medium",
+      "recommended_action": "Review permissions. Consider using built-in OS screen recording or reputable dedicated software.",
+      "alternatives": [
+        {
+          "name": "Loom",
+          "url": "https://chromewebstore.google.com/detail/loom-video-recorder-scree/liecbddmkiiihnedobmlmillhodjkdmb"
+        },
+        {
+          "name": "Screencastify",
+          "url": "https://chromewebstore.google.com/detail/screencastify-screen-vide/mmeijimgabbpbgpdklnllpncmdofkcpn"
+        }
+      ],
+      "source_url": "https://www.security.com/threat-intelligence/chrome-extensions-are-you-getting-more-you-bargained"
+    },
+    {
+      "id": "ehghoimnpgpdffdbanffgbldlgpnemdf",
+      "name": "Coupon Finder Pro",
+      "reason": "Aggressive affiliate extension that may inject ads, track browsing history excessively, or redirect through affiliate links without disclosure.",
+      "security_risk_level": "medium",
+      "recommended_action": "Review permissions and privacy policy. Consider built-in browser coupon features.",
+      "alternatives": [
+        {
+          "name": "Rakuten",
+          "url": "https://chromewebstore.google.com/detail/rakuten-get-cashback-for/chhjbpecpncaggjpdakmflnfcopglcmi"
+        }
+      ],
+      "source_url": "https://www.theverge.com/24343913/paypal-honey-megalag-coupon-scam-affiliate-fees"
+    },
+    {
+      "id": "khhckppjhonfmcpegdmfmlgjpibogfkd",
+      "name": "Shopping Assistant",
+      "reason": "Generic shopping tool often associated with excessive price tracking, data collection, and affiliate injection without clear disclosure.",
+      "security_risk_level": "medium",
+      "recommended_action": "Review what data is being collected. Consider if the savings justify the privacy trade-off.",
+      "alternatives": [
+        {
+          "name": "Capital One Shopping",
+          "url": "https://chromewebstore.google.com/detail/capital-one-shopping-save/njmehopjpmhjmihcimggnpbmdoampmmg"
+        }
+      ],
+      "source_url": "https://www.theverge.com/24343913/paypal-honey-megalag-coupon-scam-affiliate-fees"
+    },
+    {
+      "id": "padekgcemlokbadohgkifijomclgigjf",
+      "name": "Free Download Manager",
+      "reason": "Often bundled with adware or potentially unwanted programs. Some variants redirect downloads or inject ads.",
+      "security_risk_level": "medium",
+      "recommended_action": "Verify source is legitimate. Consider using browser's built-in download manager.",
+      "alternatives": [
+        {
+          "name": "Chrono Download Manager",
+          "url": "https://chromewebstore.google.com/detail/chrono-download-manager/mciiogijehkdemklbdcbfkefimifhecn"
+        }
+      ],
+      "source_url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/identify-and-avoid-malicious-browser-extensions/"
+    },
+    {
+      "id": "olnopdgccohnidjmamnjlkbapjfnipgc",
+      "name": "Grammar and Spell Checker",
+      "reason": "Generic grammar tool that may collect all typed text and send to remote servers for analysis without adequate privacy protection.",
+      "security_risk_level": "high",
+      "recommended_action": "Review privacy policy carefully. Consider reputable alternatives with clear data handling practices.",
+      "alternatives": [
+        {
+          "name": "Grammarly",
+          "url": "https://chromewebstore.google.com/detail/grammarly-grammar-checker/kbfnbcaeplbcioakkpcpgfkobkghlhen"
+        },
+        {
+          "name": "LanguageTool",
+          "url": "https://chromewebstore.google.com/detail/languagetool-grammar-and/oldceeleldhonbafppcapldpdifcinji"
+        }
+      ],
+      "source_url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/identify-and-avoid-malicious-browser-extensions/"
+    },
+    {
+      "id": "dmghijelimhndkbmpgbldicpogfkceaj",
+      "name": "Dark Mode Pro",
+      "reason": "Generic dark mode extension that may inject ads, track browsing, or have excessive permissions for its functionality.",
+      "security_risk_level": "low",
+      "recommended_action": "Consider using browser's built-in dark mode or reputable alternatives with fewer permissions.",
+      "alternatives": [
+        {
+          "name": "Dark Reader",
+          "url": "https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh"
+        }
+      ],
+      "source_url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/identify-and-avoid-malicious-browser-extensions/"
+    },
+    {
+      "id": "camppjleccjaphfdbohjdohecfnoikek",
+      "name": "Merlin - AI Powered Assistant (Fake)",
+      "reason": "Fake impersonator of the legitimate Merlin extension. May steal data or inject malicious scripts. Verify official ID.",
+      "security_risk_level": "critical",
+      "recommended_action": "Verify extension ID matches official source. Uninstall if suspicious.",
+      "alternatives": [
+        {
+          "name": "Official Merlin Website",
+          "url": "https://www.getmerlin.in/"
+        }
+      ],
+      "source_url": "https://www.ox.security/blog/malicious-chrome-extensions-steal-chatgpt-deepseek-conversations/"
     }
-  ]
+  ],
+  "security_threats_metadata": {
+    "threat_categories": {
+      "credential_theft": {
+        "description": "Extensions that steal login credentials, session tokens, or authentication data",
+        "indicators": ["clipboard_access", "form_grabbing", "session_hijacking"]
+      },
+      "data_exfiltration": {
+        "description": "Extensions that send user data to remote servers without adequate disclosure",
+        "indicators": ["chat_history_theft", "browsing_data_collection", "screenshot_capture"]
+      },
+      "financial_theft": {
+        "description": "Extensions targeting cryptocurrency wallets or financial data",
+        "indicators": ["seed_phrase_theft", "transaction_manipulation", "clipboard_switching"]
+      },
+      "traffic_interception": {
+        "description": "Extensions that route traffic through attacker-controlled infrastructure",
+        "indicators": ["proxy_manipulation", "search_hijacking", "affiliate_injection"]
+      },
+      "supply_chain_compromise": {
+        "description": "Legitimate extensions compromised through malicious updates",
+        "indicators": ["ownership_change", "sudden_permission_changes", "obfuscated_code"]
+      }
+    },
+    "warning_signs": [
+      "Requests excessive permissions unrelated to stated functionality",
+      "Recently changed ownership or developer",
+      "Large number of identical or similar extensions from same developer",
+      "Promises features that seem too good to be true (free VPN, unlimited downloads)",
+      "No clear privacy policy or data handling practices",
+      "Recently added 'Featured' badge with few reviews",
+      "Obfuscated or minified code without clear purpose"
+    ],
+    "recommendations": {
+      "before_installing": [
+        "Verify developer identity and reputation",
+        "Check reviews for mentions of unwanted behavior",
+        "Review requested permissions carefully",
+        "Research the extension on security forums",
+        "Prefer extensions with open-source code"
+      ],
+      "after_installing": [
+        "Monitor network traffic for unexpected connections",
+        "Check for unexpected browser behavior (new tabs, search changes)",
+        "Review extension permissions regularly",
+        "Keep extensions updated but verify updates manually for critical tools"
+      ]
+    }
+  }
 }
