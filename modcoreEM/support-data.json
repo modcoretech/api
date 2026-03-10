@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "extensions": [
     {
-      "id": "iboiijmfhfjpojjlgpfmjlgffjdedlbe",
-      "name": "test",
+      "id": "mdgdgngkilficbgibbfjccbodbimealm",
+      "name": "modcore Extension Manager",
       "support": {
-        "PayPal": "https://paypal.me/developer-name",
-        "Ko-fi": "https://ko-fi.com/developer-name",
-        "Patreon": "https://patreon.com/developer-name"
+        "Patreon": "https://patreon.com/cw/modcore",
+        "Documentation": "https://sites.google.com/view/modcore-em-help/",
+        "Contact": "https://sites.google.com/view/modcore-em-help/general-information/contact-modcore"
       }
     },
     {
